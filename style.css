@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    background-color: #363543;
+    color:#fff;
+}
+
+
+.navbar {
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.menu-list li {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-list li :hover {
+    color: #fff;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #e9dddd;
+}
+
+
+.main-container {
+    padding: 20px;
+}
+
+
+.line {
+    height: 5px;
+    width: 190px;
+    background-color: rgb(255, 166, 0)
+}
+
+.paragraph {
+    font-size: small;
+}
+
+.icons {
+    color: rgb(255, 166, 0);
+}
+
+.box {
+    background-color: #525163;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.para3 {
+   font-size: 40px;
+    color: white;
+    /* background-color: black; */
+
+}
+.imppara{
+    font-size: 15px;
+}
+
+.completed {
+    font-size: 30px;
+    color: rgb(255, 166, 0);
+}
+
+.project {
+    font-size: 9px;
+}
+
+.company {
+    font-size: 30px;
+    color: rgb(255, 166, 0);
+}
+
+.network {
+    font-size: 9px;
+}
+
+.dealing {
+    font-size: 30px;
+    color: rgb(255, 166, 0);
+
+}
+
+.contract {
+    font-size: 9px;
+}
+
+.work {
+    font-size: 30px;
+    color: rgb(255, 166, 0);
+
+}
+
+.experience {
+    font-size: 9px;
+}
+
+.para-container{
+    display: flex;
+    justify-content: space-around;
+}
